@@ -21,6 +21,16 @@ h6 {
     font-weight: 700;
 }
 
+}
+.img-circle {
+  border-radius: 0%;
+
+}
+
+text-center {
+  text-align: center;
+}
+
 .topnav {
     font-size: 14px; 
 }
