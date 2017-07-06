@@ -21,6 +21,19 @@ h6 {
     font-weight: 700;
 }
 
+<<<<<<< HEAD
+=======
+}
+.img-circle {
+  border-radius: 0%;
+
+}
+
+text-center {
+  text-align: center;
+}
+
+>>>>>>> second
 .topnav {
     font-size: 14px; 
 }
