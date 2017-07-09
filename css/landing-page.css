@@ -21,19 +21,19 @@ h6 {
     font-weight: 700;
 }
 
-<<<<<<< HEAD
-=======
+
 }
 .img-circle {
   border-radius: 0%;
 
 }
 
-text-center {
-  text-align: center;
+h4 {
+    font-size: 25px;
+    color: grey;
 }
 
->>>>>>> second
+
 .topnav {
     font-size: 14px; 
 }
@@ -100,6 +100,19 @@ text-center {
     }
 }
 
+.section_how_works {
+    padding: 0px 0;
+    background: url(../img/white_pattern.jpg) no-repeat center center;
+    background-size: cover; 
+}    
+
+   
+
+    
+
+}
+
+
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
@@ -108,14 +121,14 @@ text-center {
 }
 
 .content-section-a {
-    padding: 50px 0;
+    padding: 0px 0;
     background-color: #f8f8f8;
     max-height: 500px;
     min-height: 400px
 }
 
 .content-section-b {
-    padding: 50px 0;
+    padding: 0px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
 }
