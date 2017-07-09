@@ -25,12 +25,25 @@ h6 {
 }
 .img-circle {
   border-radius: 0%;
+  align-items: middle;
 
 }
 
 h4 {
     font-size: 25px;
     color: grey;
+}
+
+.quote {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: grey;
+}
+
+.quote_icon {
+    font-size: 50px;
+    font-family:"Feedback";
 }
 
 
