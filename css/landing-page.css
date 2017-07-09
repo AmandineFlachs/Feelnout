@@ -48,7 +48,7 @@ h4 {
 
 
 .topnav {
-    font-size: 14px; 
+    font-size: 14px;
 }
 
 .lead {
@@ -116,12 +116,12 @@ h4 {
 .section_how_works {
     padding: 0px 0;
     background: url(../img/white_pattern.jpg) no-repeat center center;
-    background-size: cover; 
-}    
+    background-size: cover;
+}
 
-   
 
-    
+
+
 
 }
 
@@ -134,10 +134,27 @@ h4 {
 }
 
 .content-section-a {
-    padding: 0px 0;
+
+    padding-top: 50px;
     background-color: #f8f8f8;
     max-height: 500px;
-    min-height: 400px
+    min-height: 400px;
+
+}
+
+.submitbutton {
+    background-color:#A9A9A9; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    display:block;
+    margin: 0px auto;
+    
+
 }
 
 .content-section-b {
@@ -210,4 +227,8 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+.form-control {
+
 }
