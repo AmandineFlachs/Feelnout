@@ -115,7 +115,7 @@ h4 {
 
 .section_how_works {
     padding: 0px 0;
-    background: url(..static/img/white_pattern.jpg) no-repeat center center;
+    background: url(../static/img/white_pattern.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -177,7 +177,7 @@ h4 {
 .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(..static/img/citycopie.jpg) no-repeat center center;
+    background: url(../static/img/citycopie.jpg) no-repeat center center;
     background-size: cover;
 }
 
