@@ -1,10 +1,13 @@
-# Feel'n out[https://amandineflachs.github.io/Feelnout/]
+# Feel'n out [https://amandineflachs.github.io/Feelnout/]
+
+Live website: https://amandineflachs.github.io/Feelnout/templates/index.html
 
 ## What is it
 Feel'n out is a tool that let you check your text emotions before spreading it on the net. 
 
 ## How to use it
 *To check your text emotions, simply copy and past it on the Feel'n out website text box. 
+
 *After hitting the check button, you will see the result of your request and will get more informations regarding the emotions detected in your text. 
 
 ## How it work
