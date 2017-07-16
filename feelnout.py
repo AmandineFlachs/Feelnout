@@ -15,6 +15,7 @@ def contact():
 	return render_template('about.html', form_data=form_data)
 
 @app.route('/', methods=['GET', 'POST'])
+def redirect():
 	index()
 	
 @app.route('/index', methods=['GET', 'POST'])
