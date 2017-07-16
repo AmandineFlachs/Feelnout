@@ -16,7 +16,7 @@ def contact():
 
 @app.route('/', methods=['GET', 'POST'])
 def redirect():
-	index()
+	return index()
 	
 @app.route('/index', methods=['GET', 'POST'])
 def index():
