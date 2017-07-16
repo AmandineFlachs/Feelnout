@@ -79,4 +79,4 @@ def index():
 	#print ["sentiment"]	
 
 
-app.run(debug=True, port=app.config.get("PORT",process.env.PORT))
+app.run(debug=True)
