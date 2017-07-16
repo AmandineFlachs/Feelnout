@@ -14,7 +14,8 @@ def contact():
 	form_data = request.form	
 	return render_template('about.html', form_data=form_data)
 
-	
+@app.route('/', methods=['GET', 'POST'])
+	index()
 	
 @app.route('/index', methods=['GET', 'POST'])
 def index():
