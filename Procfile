@@ -1,1 +1,1 @@
-web: python feelnout.py
+web: python2.7 feelnout.py
