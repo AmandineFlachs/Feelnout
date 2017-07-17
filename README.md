@@ -1,6 +1,6 @@
 # Feel'n out [https://amandineflachs.github.io/Feelnout/]
 
-Live website: https://amandineflachs.github.io/Feelnout/templates/index.html
+Live website: https://feelnout.herokuapp.com/
 
 ## What is it
 Feel'n out is a tool that let you check your text emotions before spreading it on the net. 
