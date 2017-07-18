@@ -144,7 +144,7 @@ h4 {
 }
 
 .submitbutton {
-    background-color:#A9A9A9; /* Green */
+    background-color:#A9A9A9; 
     border: none;
     color: white;
     padding: 10px 24px;
@@ -233,4 +233,3 @@ p.copyright {
 .form-control {
 		margin-bottom: 15px;
 }
-
