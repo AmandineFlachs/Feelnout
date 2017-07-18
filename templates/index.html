@@ -72,34 +72,45 @@
 	    </div>
 	    <!-- Page Content -->
 		<a  name="services"></a>
-	    <div class="content-section-a">
+			<div class="content-section-a">
 	        <div class="section_text-box">
 	        	<div class="container">
 	            	<div class="row">
 	                    <h2 class="section-heading">Enter your text here!</h2>
-	                    <form role="form" method="POST" type="text" name="text" action="/index" >                   
-	                   	<input type="text" name="text" id="text" class="form-control" style="width: 700px; height: 200px" placeholder=" We are having so much fun thanks to the Code First Girls summer course. Hope you enjoy this tool!">
+	                    <form role="form" method="POST" type="text" name="text" action="/index" >
+	                   	<input type="text" name="text" id="text" class="form-control" style="width: 700px; height: 200px; margin: 0 auto; margin-bottom: 15px;" placeholder=" We are having so much fun thanks to the Code First Girls summer course. Hope you enjoy this tool!">
 	                   	<div>
 	                   		<input type='submit' id='submit-button' class='submitbutton' value='submit' style="position: center;" />
-						</div>
-						</form>
+											</div>
+											</form>
 		            </div>
-				</div>
+						</div>
 
-	    	    {% if sentiment and sentiment|float >= 0.60 %}
-					<p>Amazing!</p>
-				{% endif %}	
-				{% if sentiment and sentiment|float > 0.40 and sentiment|float < 0.59 %}
-					<p>That's fine</p>
-				{% endif %}	
-				{% if sentiment and sentiment|float <= 0.39 %}
-					<p>Are you ok? you sounds sad? </p>	
-				{% endif %}
+						{% if sentiment and sentiment|float >= 0.60 %}
+							<!-- <div class="container" style="margin-bottom:15px;"> -->
+							<p  style="text-align: center; color:DeepPink; margin-top:30px; margin-bottom:30px; font-size:30px;">Amazing!</p>
+							<!-- <p   style="text-align: center; object-fit: contain; overflow:hidden; margin-top:30px; margin-bottom:30px;"><img src="{{url_for('static', filename='../static/img/happy.gif') }}" height="40" width="40"></p> -->
+							<!-- </div> -->
+						{% endif %}
+						{% if sentiment and sentiment|float > 0.40 and sentiment|float < 0.59 %}
+							<p style="text-align: center; color:SteelBlue; margin-top:30px; margin-bottom:30px; font-size:30px;">That's alright</p>
+							<!-- <p   style="text-align: center; object-fit: contain; overflow:hidden; margin-top:30px; margin-bottom:30px;"><img src="{{url_for('static', filename='../static/img/fine.gif') }}" height="40" width="40"></p> -->
+						{% endif %}
+						{% if sentiment and sentiment|float <= 0.39 %}
+							<p  style="text-align: center; color:black; margin-top:30px; margin-bottom:30px; font-size:30px;">Are you ok? You sound sad </p>
+							<!-- <p   style="text-align: center; object-fit: contain; overflow:hidden; margin-top:30px; margin-bottom:30px;"><img src="{{url_for('static', filename='../static/img/sad.gif') }}" height="40" width="40"></p> -->
+						{% endif %}
+
+
+
 
 			</div>
-	    <!-- /.container -->
-	    </div>
-	    <!-- /.content-section-a -->
+			<!-- /.section_text-box -->
+
+
+		</div>
+    <!-- /.content-section-a -->
+
 	    <div class="content-section-b">
 	        <div class="section_how_works">
 	            <div class="container">
