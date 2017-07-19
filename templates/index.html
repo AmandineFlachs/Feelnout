@@ -93,11 +93,11 @@
 							<!-- </div> -->
 						{% endif %}
 						{% if sentiment and sentiment|float > 0.40 and sentiment|float < 0.59 %}
-							<p style="text-align: center; color:SteelBlue; margin-top:30px; margin-bottom:30px; font-size:30px;">Your text is alright and ready to be shared on the internet</p>
+							<p style="text-align: center; color:SteelBlue; margin-top:30px; margin-bottom:30px; font-size:30px;">Your text is alright and ready to be shared.</p>
 							<!-- <p   style="text-align: center; object-fit: contain; overflow:hidden; margin-top:30px; margin-bottom:30px;"><img src="{{url_for('static', filename='../static/img/fine.gif') }}" height="40" width="40"></p> -->
 						{% endif %}
 						{% if sentiment and sentiment|float <= 0.39 %}
-							<p  style="text-align: center; color:black; margin-top:30px; margin-bottom:30px; font-size:30px;">Are you ok? You sound sad. Maybe you should have another look at your text if this is not what you want to share. </p>
+							<p  style="text-align: center; color:black; margin-top:30px; margin-bottom:30px; font-size:30px;">Are you ok? You sound sad. Maybe you should have another look at your text. </p>
 							<!-- <p   style="text-align: center; object-fit: contain; overflow:hidden; margin-top:30px; margin-bottom:30px;"><img src="{{url_for('static', filename='../static/img/sad.gif') }}" height="40" width="40"></p> -->
 						{% endif %}
 
