@@ -138,13 +138,12 @@ h4 {
     padding-top: 50px;
 		padding-bottom: 15px;
     background-color: #f8f8f8;
-    max-height: 500px;
     min-height: 400px;
 
 }
 
 .submitbutton {
-    background-color:#A9A9A9; 
+    background-color:#A9A9A9;
     border: none;
     color: white;
     padding: 10px 24px;

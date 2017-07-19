@@ -87,18 +87,22 @@
 						</div>
 
 						{% if sentiment and sentiment|float >= 0.60 %}
-							<!-- <div class="container" style="margin-bottom:15px;"> -->
-							<p  style="text-align: center; color:DeepPink; margin-top:30px; margin-bottom:30px; font-size:30px;">Amazing! You are so positive today, keep it up!</p>
-							<!-- <p   style="text-align: center; object-fit: contain; overflow:hidden; margin-top:30px; margin-bottom:30px;"><img src="{{url_for('static', filename='../static/img/happy.gif') }}" height="40" width="40"></p> -->
-							<!-- </div> -->
+							<div class="container" style="padding-bottom: 30px; margin-bottom:15px;">
+							<p  style="text-align: center; color:DeepPink; padding-top:30px; padding-bottom:15px; font-size:30px;">Amazing! You are so positive today, keep it up!</p>
+							<p   style="text-align: center; overflow:hidden;  padding-bottom:30px;"><img src="{{url_for('static', filename='../static/img/happy.gif') }}" height="400" width="400"></p>
+							</div>
 						{% endif %}
 						{% if sentiment and sentiment|float > 0.40 and sentiment|float < 0.59 %}
+							<div class="container" style="padding-bottom: 30px; margin-bottom:15px;">
 							<p style="text-align: center; color:SteelBlue; margin-top:30px; margin-bottom:30px; font-size:30px;">Your text is alright and ready to be shared.</p>
-							<!-- <p   style="text-align: center; object-fit: contain; overflow:hidden; margin-top:30px; margin-bottom:30px;"><img src="{{url_for('static', filename='../static/img/fine.gif') }}" height="40" width="40"></p> -->
+							<p   style="text-align: center; overflow:hidden; padding-bottom:30px;"><img src="{{url_for('static', filename='../static/img/fine.gif') }}" height="400" width="400"></p>
+							</div>
 						{% endif %}
 						{% if sentiment and sentiment|float <= 0.39 %}
+							<div class="container" style="padding-bottom: 30px; margin-bottom:15px;">
 							<p  style="text-align: center; color:black; margin-top:30px; margin-bottom:30px; font-size:30px;">Are you ok? You sound sad. Maybe you should have another look at your text. </p>
-							<!-- <p   style="text-align: center; object-fit: contain; overflow:hidden; margin-top:30px; margin-bottom:30px;"><img src="{{url_for('static', filename='../static/img/sad.gif') }}" height="40" width="40"></p> -->
+							<p   style="text-align: center; overflow:hidden; padding-bottom:30px;"><img src="{{url_for('static', filename='../static/img/sad.gif') }}" height="400" width="400"></p>
+							</div>
 						{% endif %}
 
 
@@ -120,7 +124,7 @@
 	                        <h2 class="section-heading"> How it works</h2>
 	                    </div>
 	                    <div class="col-md-4 text-center">
-	                           <img class="text-center" src='../static/img/icon_pen.svg'> 
+	                           <img class="text-center" src='../static/img/icon_pen.svg'>
 	                            <h4 class="section-heading"> </br> Copy your text in the website and hit the check button! </h4>
 	                        </div>
 	                    <div class="col-md-4 text-center">
